@@ -30,77 +30,61 @@ client.on('messageCreate', async (message) => {
         const command = content.replace(/<@!?\d+>/, '').replace('@echo', '').trim();
         
         if (command === 'help' || command === '') {
-            await message.reply({
-                content: `📈 **Echo CMO - Chief Marketing Officer**
+            await message.reply(`📈 **Echo CMO - Chief Marketing Officer**
 *Elite Marketing Strategist & Growth Catalyst*
 
-**🎯 CORE MARKETING EXPERTISE:**
-• **Strategic Market Positioning:** Transform Chinese manufacturing into premium American luxury brands
-• **Multi-Channel Campaign Architecture:** Instagram, TikTok, Facebook, Google Ads, Email, Influencer networks
-• **Luxury Consumer Psychology:** Deep understanding of affluent American buying behaviors ($100K+ households)
-• **Premium Brand Storytelling:** Craft compelling narratives that justify 40-60% price premiums
-• **Performance Marketing Mastery:** ROI optimization, conversion funnels, customer lifetime value maximization
-• **Social Commerce Integration:** Seamless Shopify-to-social media sales pipelines
-• **Content Strategy Excellence:** Visual storytelling, user-generated content, viral marketing mechanics
+**🎯 CORE EXPERTISE:**
+• Strategic Market Positioning for luxury brands
+• Multi-Channel Campaign Architecture (Instagram, TikTok, Facebook, Google Ads)
+• Luxury Consumer Psychology ($100K+ households)
+• Premium Brand Storytelling (40-60% price premiums)
+• Performance Marketing & ROI optimization
 
-**💼 PROFESSIONAL COMMANDS:**
-\`@Echo help\` - Complete capabilities overview
-\`@Echo strategy\` - Marketing strategy development process
-\`@Echo campaigns\` - Campaign planning and execution frameworks
-\`@Echo positioning\` - Premium brand positioning strategies
-\`@Echo social\` - Social media and content marketing expertise
-\`@Echo performance\` - Analytics, ROI tracking, and optimization
-\`@Echo team status\` - Current marketing projects and integrations
-\`@Echo test\` - Comprehensive marketing analysis capabilities
+**💼 COMMANDS:**
+\`@Echo strategy\` - Marketing strategy development
+\`@Echo campaigns\` - Campaign planning frameworks
+\`@Echo positioning\` - Premium brand positioning
+\`@Echo social\` - Social media expertise
+\`@Echo performance\` - Analytics & optimization
+\`@Echo team status\` - Current projects
 
-**🔄 AI TEAM INTEGRATION:**
-• **Zenith Intelligence:** Transforms market analysis into actionable marketing strategies
-• **Cipher Brand System:** Implements brand guidelines across all marketing touchpoints
-• **Aura Coordination:** Manages marketing project timelines and deliverable quality
-• **Forge E-commerce:** Prepares marketing assets for seamless e-commerce integration
+**🔄 TEAM INTEGRATION:**
+• Zenith Intelligence → Marketing strategies
+• Cipher Brand System → Brand implementation
+• Aura Coordination → Project management
 
-**🏆 PROFESSIONAL DELIVERABLES:**
-• **Marketing Strategy Documents:** Comprehensive 15-20 page strategic marketing plans
-• **Campaign Implementation Roadmaps:** 90-day execution timelines with specific tactics
-• **Content Calendar Systems:** Monthly content planning with platform-specific optimization
-• **Performance Analytics Frameworks:** KPI tracking, ROI measurement, optimization protocols
-• **Brand Voice Guidelines:** Marketing-specific brand implementation standards
+**🌟 SPECIALIZATION:** Transform $50-100 products into $200-500 luxury brands through sophisticated marketing strategy and premium positioning.
 
-**🌟 SPECIALIZATION:** Elite-level marketing strategy development for premium Chinese manufacturers targeting affluent American consumers. Expertise in transforming $50-100 products into $200-500 luxury market positioned brands through sophisticated marketing strategy, premium storytelling, and strategic channel positioning.
-
-**📊 SUCCESS METRICS:** Proven frameworks for achieving 3-5x price premiums, 25%+ conversion rates, and sustainable luxury brand positioning in competitive American markets.
-
-*Ready to architect marketing strategies that transform ordinary products into extraordinary American luxury brands! 🚀*`
-            });
+*Ready to architect elite marketing strategies! 🚀*`);
         }
         else if (command === 'strategy') {
-            await message.reply(`🎯 **Elite Marketing Strategy Development Process:**
+            await message.reply(`🎯 **Elite Marketing Strategy Development:**
 
-**📊 STRATEGIC FOUNDATION ANALYSIS:**
-• **Market Intelligence Integration:** Transform Zenith's positioning insights into actionable marketing frameworks
-• **Brand Architecture Implementation:** Leverage Cipher's brand guidelines for consistent luxury messaging
-• **Competitive Landscape Mapping:** Position against established American luxury brands with strategic differentiation
-• **Consumer Psychology Profiling:** Deep-dive into affluent American purchasing behaviors and luxury triggers
+**📊 STRATEGIC FOUNDATION:**
+• Market Intelligence Integration (from Zenith)
+• Brand Architecture Implementation (from Cipher)
+• Competitive Landscape Mapping
+• Consumer Psychology Profiling ($100K+ households)
 
-**📈 COMPREHENSIVE CAMPAIGN ARCHITECTURE:**
-• **Multi-Channel Strategy Design:** Orchestrate Instagram, TikTok, Facebook, Google Ads, Email, and Influencer campaigns
-• **Content Ecosystem Development:** Create interconnected content strategies across all marketing touchpoints
-• **Customer Journey Optimization:** Map luxury customer acquisition from awareness to premium purchase conversion
-• **Seasonal Campaign Planning:** Align marketing initiatives with American luxury buying cycles and cultural moments
+**📈 CAMPAIGN ARCHITECTURE:**
+• Multi-Channel Strategy (Instagram, TikTok, Facebook, Google Ads)
+• Content Ecosystem Development
+• Customer Journey Optimization
+• Seasonal Campaign Planning
 
-**💰 PREMIUM POSITIONING IMPLEMENTATION:**
-• **Value Proposition Articulation:** Craft compelling narratives that justify 3-5x price premiums over mass market alternatives
-• **Social Status Integration:** Leverage luxury psychology for aspirational marketing and social positioning
-• **Quality Communication:** Transform manufacturing excellence into premium brand storytelling
-• **Exclusivity Marketing:** Create scarcity and desirability through strategic luxury market tactics
+**💰 PREMIUM POSITIONING:**
+• Value Proposition Articulation (3-5x price premiums)
+• Social Status Integration
+• Quality Communication Excellence
+• Exclusivity Marketing Tactics
 
-**🎨 BRAND VOICE & MESSAGING:**
-• **Sophisticated Communication:** Develop refined brand voice appropriate for affluent American audiences
-• **Cultural Adaptation:** Navigate American luxury market expectations and cultural nuances
-• **Premium Content Standards:** Ensure all marketing content reflects luxury market quality expectations
-• **Lifestyle Integration:** Position products as essential elements of aspirational American lifestyles
+**🎨 BRAND IMPLEMENTATION:**
+• Sophisticated Communication for affluent audiences
+• Cultural Adaptation for American luxury market
+• Premium Content Standards
+• Lifestyle Integration Strategies
 
-*Ready to architect comprehensive marketing strategies that command luxury market premiums! 👑*`);
+*Ready to architect comprehensive luxury marketing strategies! 👑*`);
         }
         else if (command === 'campaigns') {
             await message.reply(`📋 **Advanced Campaign Planning & Execution:**
@@ -263,35 +247,35 @@ client.on('messageCreate', async (message) => {
         else if (command === 'test') {
             await message.reply(`🧪 **Testing Echo's Elite Marketing Capabilities:**
 
-**📊 MARKETING STRATEGY ANALYSIS:**
-• **Strategic Positioning Evaluation:** Advanced luxury market positioning framework - Ready ✅
-• **Campaign Development Architecture:** Multi-channel premium campaign planning system - Ready ✅  
-• **Brand Integration Excellence:** Sophisticated brand guideline implementation capabilities - Ready ✅
-• **Performance Optimization Engine:** ROI tracking and marketing analytics framework - Ready ✅
+**📊 STRATEGY ANALYSIS:**
+• Strategic Positioning Framework: Advanced ✅
+• Campaign Development System: Ready ✅  
+• Brand Integration Excellence: Ready ✅
+• Performance Optimization: Ready ✅
 
-**🎯 PREMIUM MARKET EXPERTISE VERIFICATION:**
-• **Luxury Positioning Mastery:** Expert-level premium brand positioning strategies and 3-5x pricing frameworks
-• **American Market Sophistication:** Specialized knowledge of affluent consumer behavior and luxury market psychology
-• **High-Income Demographic Targeting:** Advanced targeting strategies for $100K+ household demographics
-• **Premium Pricing Psychology:** Strategic understanding of luxury purchase triggers and status signaling
+**🎯 PREMIUM MARKET EXPERTISE:**
+• Luxury Positioning: Expert-level (3-5x pricing frameworks)
+• American Market Knowledge: Specialized ($100K+ demographics)
+• Premium Psychology: Advanced understanding
+• Cultural Adaptation: Strategic sophistication
 
-**📈 AI TEAM INTEGRATION STATUS:**
-• **Market Analysis Processing (Zenith):** Ready to transform positioning insights into marketing strategies
-• **Brand Guidelines Implementation (Cipher):** Ready to execute brand-consistent luxury marketing campaigns
-• **Professional Document Generation:** System operational for comprehensive marketing strategy deliverables
-• **Team Coordination Excellence:** Advanced integration with Aura's project management and quality standards
+**📈 AI TEAM INTEGRATION:**
+• Market Analysis Processing (Zenith): Ready ✅
+• Brand Guidelines Implementation (Cipher): Ready ✅
+• Professional Document Generation: Operational ✅
+• Team Coordination (Aura): Integrated ✅
 
-**🏆 ELITE MARKETING DELIVERABLES:**
-• **15-20 Page Marketing Strategy Documents:** Comprehensive strategic marketing plans comparable to $15K+ consultancy work
-• **90-Day Implementation Roadmaps:** Detailed execution timelines with weekly milestones and success metrics
-• **Multi-Platform Campaign Architecture:** Instagram, TikTok, Facebook, Google Ads, Email integration strategies
-• **Performance Analytics Frameworks:** Advanced ROI tracking, conversion optimization, and luxury market metrics
+**🏆 DELIVERABLES READY:**
+• 15-20 Page Marketing Strategy Documents
+• 90-Day Implementation Roadmaps
+• Multi-Platform Campaign Architecture
+• Performance Analytics Frameworks
 
-**🌟 COMPREHENSIVE TEST RESULT:** Echo CMO is fully operational with elite-level marketing strategy capabilities, ready to transform market intelligence and brand guidelines into sophisticated marketing strategies that achieve premium American market positioning and luxury brand success!
+**🌟 TEST RESULT:** Echo CMO fully operational with elite marketing strategy capabilities!
 
-**🚀 SUCCESS METRICS READY:** Frameworks prepared for achieving 3-5x price premiums, 25%+ conversion rates, and sustainable luxury brand positioning in competitive American markets.
+**Success Metrics:** 3-5x price premiums, 25%+ conversion rates, luxury positioning
 
-*Echo CMO: Elite marketing strategy engine fully operational and ready to architect winning luxury campaigns! 💎*`);
+*Elite marketing strategy engine: Fully operational! 🚀*`);
         }
         else {
             await message.reply(`📈 **Echo CMO - Elite Marketing Strategy Expert**
