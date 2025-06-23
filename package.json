@@ -1,0 +1,19 @@
+{
+  "name": "echo-discord-bot",
+  "version": "1.0.0",
+  "description": "Echo CMO - Marketing Strategy Discord Bot for Creativ Ventures",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["discord", "bot", "marketing", "strategy", "ai"],
+  "author": "Creativ Ventures",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
